@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    
+    background-size: cover;
+    
+}
+
+.container{
+    
+    
+    position: absolute;
+    top:80px;
+    left:700px;
+}
+
+.container h1{
+    border-bottom:4px solid white;
+    display:inline-block;
+    color:white;
+    margin:10px 5px;
+}
+.box{
+    padding:5px;
+    border-bottom:2px solid white;
+    margin:10px 0px;
+}
+.box i{
+    color:white;
+    margin-right:10px;
+}
+.box input{
+    width:80%;
+    background: none;
+    outline:none;
+    border:none;
+    
+}
+
+.btn{
+    color:white;
+    background: none;
+    padding:5px 7px;
+    border:2px solid white;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    color:#2405FF;
+    background:white;
+}
